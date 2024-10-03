@@ -1,0 +1,261 @@
+ck-editor__editable,
+textarea {
+    min-height: 150px;
+}
+
+.datatable {
+    width: 100% !important;
+}
+
+.dataTables_length,
+.dataTables_filter,
+.dt-buttons {
+    margin-bottom: 0.333em;
+    margin-top: .2rem;
+}
+
+.dataTables_filter {
+    margin-right: .2rem;
+}
+
+.dt-buttons .btn {
+    margin-left: 0.333em;
+    border-radius: 0;
+}
+
+.table.datatable {
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
+table.dataTable thead th {
+    border-bottom: 2px solid #c8ced3;
+}
+
+.dataTables_wrapper.no-footer .dataTables_scrollBody {
+    border-bottom: 1px solid #c8ced3;
+}
+
+.select2 {
+    max-width: 100%;
+    width: 100% !important;
+}
+
+.select2-selection__rendered {
+    padding-bottom: 5px !important;
+}
+
+.has-error .invalid-feedback {
+    display: block !important;
+}
+
+.btn-info{
+    color: white;
+    background-color: #00fff2; /* Blue background color */
+    border-color: #04bdf5; /* Border color */
+    padding: 3px 20px; /* Padding for buttons */
+    border-radius: 8px; /* Rounded corners for buttons */
+}
+.badge-info {
+    color: white;
+    background-color: #0077ff69; /* Blue background color */
+    border-color: #000000; /* Border color */
+    padding: 3px 20px; /* Padding for buttons */
+    border-radius: 8px; /* Rounded corners for buttons */
+}
+
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc {
+    background-image: none;
+}
+
+
+/* Additional Styling */
+/* Add your additional styles here to make it even more awesome! */
+
+.sidebar .nav-item {
+    cursor: pointer;
+}
+
+.btn-default {
+    color: #23282c;
+    background-color: #f0f3f5;
+    border-color: #f0f3f5;
+}
+
+.btn-default.focus,
+.btn-default:focus {
+    box-shadow: 0 0 0 .2rem rgba(209, 213, 215, .5);
+}
+
+.btn-default:hover {
+    color: #23282c;
+    background-color: #d9e1e6;
+    border-color: #d1dbe1;
+}
+
+.btn-group-xs > .btn,
+.btn-xs {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+.searchable-title {
+    font-weight: bold;
+}
+.searchable-fields {
+    padding-left:5px;
+}
+.searchable-link {
+    padding:0 5px 0 5px;
+}
+.searchable-link:hover   {
+    cursor: pointer;
+    background: #eaeaea;
+}
+.select2-results__option {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.form-group .required::after {
+    content: " *";
+    color: rgb(27, 0, 100);
+}
+
+
+.form-check.is-invalid ~ .invalid-feedback {
+    display: block;
+}
+.sidebar .nav-link.active{
+    background-color: rgba(0, 217, 255, 0.486) !important;
+}
+.dash-widget-icon {
+	background-color: rgba(59, 87, 244, 0.2);
+	border-radius: 100%;
+	color: #00c6f8;
+	display: inline-block;
+	float: left;
+	font-size: 30px;
+	height: 60px;
+	line-height: 60px;
+	margin-right: 10px;
+	text-align: center;
+	width: 60px;
+}
+
+.dash-widget-info {
+	text-align: right;
+}
+.dash-widget-info > h3 {
+	font-size: 30px;
+	font-weight: 600;
+}
+.dash-widget-info > span {
+	font-size: 16px;
+}
+.dash-widget-info {
+	text-align: right;
+}
+.dash-widget-info > h3 {
+	font-size: 30px;
+	font-weight: 600;
+}
+.card-table .card-body {
+	padding: 0;
+}
+.dash-widget-info > span {
+	font-size: 16px;
+}
+.card-file .card-body {
+	padding: 15px 0 0;
+    
+}
+.card-header{
+    border-top-left-radius: 20px !important; /* Rounded corners */
+    border-top-right-radius: 20px !important; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Floating effect with shadow */
+}
+.card{
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Floating effect with shadow */
+}
+.card-body {
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Floating effect with shadow */
+    
+}
+table#DataTables_Table_0{
+    border-radius: 20px;
+}
+.account-logo {
+	margin-bottom: 30px;
+	text-align: center;
+}
+.account-logo img {
+	width: 100px;
+}
+.account-title {
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.account-subtitle {
+    color: #4c4c4c;
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #f5f3f3; /* Darker creamy white background */
+    color: #333; /* Text color */
+    position: fixed;
+    top: 14;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0 20px 20px 0; /* Rounded corners on the right side */
+    overflow: hidden;
+}
+.sidebar .nav-link{
+    color: #2b2b2b !important;
+    align-items: center;
+    padding: 13px 20px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 0 10px 10px 0; /* Rounded corners on the right side */
+    margin: 5px 0; /* Adjusted vertical margin */
+}
+.nav-link:hover, .nav-link.active {
+    background-color: #d1cbc9; /* Darker creamy background color on hover/active */
+    color: #000; /* Darker text color on hover/active */
+}
+
+.nav-icon {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.sidebar-minimizer {
+    background-color: #d1cbc9; /* Darker creamy background color for minimizer button */
+    color: #333; /* Text color for minimizer button */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    border-radius: 0 20px 20px 0; /* Rounded corners on the right side */
+}
+
+.sidebar-minimizer:hover {
+    background-color: #beb8b7; /* Even darker background color on hover */
+}
+
